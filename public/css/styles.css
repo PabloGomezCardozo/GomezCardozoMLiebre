@@ -1,20 +1,6 @@
-img {
-    width: 150px;
-    }
-
-* {
-    padding: 0;
-    margin: 0;
-}
 
 body {
     font-family: "Roboto", sans-serif;
-}
-
-.icon-footer {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #1259c3;
 }
 
 .bg-yellow {
@@ -29,10 +15,6 @@ body {
     background-color:#03264C
 }
 
-.bg-sky-blue {
-background-color:  #1259c3;
-}
-
 .bg-white{
     background-color: #ffffff;
 }
@@ -41,8 +23,16 @@ background-color:  #1259c3;
     color: #666;
 }
 
+.c-sky-blue {
+    color: #1259c3;
+}
+
 .c-green {
     color: #39b54a;
+}
+
+.font-2e {
+    font-size: 2em;
 }
 
 .font-12 {
@@ -61,7 +51,119 @@ background-color:  #1259c3;
     font-size: 24px;
 }
 
+.fw-400 {
+    font-weight: 400;
+}
+
+/*.burguer-icon {
+    color:#ffffff;
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    background-color: #1259c3;
+    border-radius: 8%;
+    font-size: 20px;
+}*/
+
+.logo {
+    width: 200px;
+}
+
+.burguer-icon {
+    background-color: #1259c3;
+    color:#ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8%;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar li {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
 .text-center {
     text-align: center;
 }
 
+.mt-5 {
+    margin-top: 3px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+.vw-90 {
+    width: 90vw;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.bt-1-s {
+    border-top: 1px solid;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.border-grey {
+    border-color: #ebebeb;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: #39b54a solid 1px;
+ }
+
+@media (min-width:520px) {
+    .md-product-shadow {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 1280px) {
+    .md-product-shadow {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
