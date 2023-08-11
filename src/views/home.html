@@ -14,22 +14,19 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>Mercado liebre</title>
 </head>
+
 <body class="bg-ligth-grey font-12">
     <header class="bg-yellow pd-20">
         
+        <div class="main-header-top-bar">
         <h1 class="logo"><img src="/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre"></h1>
         
-        <div>
-            <p>Lugar para poner la barra de búsqueda</p>
-            <p><i class="fa-solid fa-magnifying-glass"></i></p>
-        </div>
-        
-        <div>
-            <p class="text-center fw-400"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito </p>
-        </div>
+            <p>Barra de búsqueda <i class="fa-solid fa-magnifying-glass"></i></p>
+            <!--<p><i class="fa-solid fa-magnifying-glass"></i></p>-->
+            <h4 class="fw-400"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</h4>
 
-        
-
+        </div>    
+               
         <nav class="main-navbar hidden">
             <ul>
                 <li><a href="#">Ofertas</a></li>
@@ -38,7 +35,7 @@
                 <li><a href="#">Ayuda</a></li>
             </ul>
             
-            <ul class="mt-10">
+            <ul>
                     <li><a href="#">Creá tu cuenta</a> <i class="fa-solid fa-id-card"></i></li>
                     <li><a href="#">Ingresá</a> <i class="fa-solid fa-right-to-bracket"></i></li>
                     <li><a href="#">Mis compras</a> <i class="fa-solid fa-basket-shopping"></i></li>
@@ -55,11 +52,11 @@
 
     <main class="vw-90 mx-auto">
         <section>
-            <h2 class="font-24">Basado en tu última visita</h2>
+            <h2 class="font-24 pd-tb-15">Basado en tu última visita</h2>
             <article class="mb-10 bg-white md-product-shadow">
             <img src="/images/img-cafetera-moulinex.jpg" alt ="imagen cafetera Moulinex">
             <div class="bt-1-s border-grey pd-15">
-                <p class="circle"><i class="fa-solid fa-truck c-green mt-5 ml-4"></i></p>
+                <p class="desc-box truck-icon"><i class="fa-solid fa-truck c-green"></i></p>
                     <div class="div-container">
                         <p class="font-18 w-30">$6.770</p>
                         <p class="font-16 c-green w-70">40% off</p>
@@ -72,65 +69,77 @@
             <img src="\images\img-macbook-pro-2019.jpg" alt="imagen MacBook">
             <div class="bt-1-s border-grey pd-15">
                 <p class="desc-box truck-icon"><i class="fa-solid fa-truck c-green"></i></p>
-                <p class="font-18">$230.000</p>
-                <p class="font-16 c-green">20% off</p>
-                <h3 class="font-16">MacBook Pro 2019</h3>
+                <div class="div-container">
+                    <p class="font-18 w-30">$230.000</p>
+                    <p class="font-16 c-green w-70">20% off</p>
+                </div>
+                <h3 class="font-16 hidden">MacBook Pro 2019</h3>
             </div>
             </article>
 
             <article class="mb-10 bg-white md-product-shadow">
             <img src="images\img-samsung-galaxy-s10.jpg" alt="imagen Samsung Galaxy S10">
             <div class="bt-1-s border-grey pd-15">
-                <i class="fa-solid fa-truck c-green"></i>
-                <p class="font-18">$70.500</p>
-                <p class="font-16 c-green">10% off</p>
-                <h3 class="font-16">Samsung Galaxy S10</h3>
+                <p class="desc-box truck-icon"><i class="fa-solid fa-truck c-green"></i></p>
+                <div class="div-container">
+                    <p class="font-18 w-30">$70.500</p>
+                    <p class="font-16 c-green w-70">10% off</p>
+                </div>
+                <h3 class="font-16 hidden">Samsung Galaxy S10</h3>
             </div>
             </article>
 
             <article class="mb-10 bg-white md-product-shadow">
             <img src="images\img-tv-samsung-smart.jpg" alt="imagen smart TV Samsung">
             <div class="bt-1-s border-grey pd-15">
-                <i class="fa-solid fa-truck c-green"></i>
-                <p class="font-18">$23.200</p>
-                <p class="font-16 c-green">5% off</p>
-                <h3 class="font-16">SmartTv Samsung 43"</h3>
+                <p class="desc-box truck-icon"><i class="fa-solid fa-truck c-green"></i></p>
+                <div class="div-container">
+                     <p class="font-18 w-30">$23.200</p>
+                     <p class="font-16 c-green w-70">5% off</p>
+                 </div>
+                <h3 class="font-16 hidden">SmartTv Samsung 43"</h3>
             </div>
             </article>
         </section>
         
         <section>
         
-            <h2 class="font-24">Ofertas</h2>
+            <h2 class="font-24 pd-tb-15">Ofertas</h2>
        
             <article class="mb-10 bg-white md-product-shadow">
             <img src="images\img-cafetera-moulinex.jpg" alt ="imagen cafetera Moulinex">
         
         <div class="bt-1-s border-grey pd-15">
-            <i class="fa-solid fa-truck c-green"></i>
-            <p class="font-18">$6.770</p>
-            <p class="font-16 c-green">40% off</p>
-            <h3 class="font-16">Cafetera Moulinex</h3>
+            <p class="desc-box truck-icon"><i class="fa-solid fa-truck c-green"></i></p>
+            <div class="div-container">
+                 <p class="font-18 w-30">$6.770</p>
+                 <p class="font-16 c-green w-70">40% off</p>
+             </div>
+            <h3 class="font-16 hidden">Cafetera Moulinex</h3>
         </div>
         </article>
 
         <article class="mb-10 bg-white md-product-shadow">
         <img src="images\img-macbook-pro-2019.jpg" alt="imagen MacBook">
         <div class="bt-1-s border-grey pd-15">
-        <i class="fa-solid fa-truck c-green"></i>
-        <p class="font-18">$230.000</p>
-        <p class="font-16 c-green">20% off</p>
-        <h3 class="font-16">MacBook Pro 2019</h3>
+            <p class="desc-box truck-icon"><i class="fa-solid fa-truck c-green"></i></p>
+            <div class="div-container">
+                <p class="font-18 w-30">$230.000</p>
+                <p class="font-16 c-green w-70">20% off</p>
+            </div>
+            <h3 class="font-16 hidden">MacBook Pro 2019</h3>
         </div>
         </article>
 
         <article class="mb-10 bg-white md-product-shadow">
         <img src="images\img-samsung-galaxy-s10.jpg" alt="imagen Samsung Galaxy S10">
         <div class="bt-1-s border-grey pd-15">
-        <i class="fa-solid fa-truck c-green"></i>
-        <p class="font-18">$70.500</p>
-        <p class="font-16 c-green">10% off</p>
-        <h3 class="font-16">Samsung Galaxy S10</h3>
+            <p class="desc-box truck-icon"><i class="fa-solid fa-truck c-green"></i></p>
+            <div class="div-container">
+                <p class="font-18 w-30">$70.500</p>
+                <p class="font-16 c-green w-70">10% off</p>
+            </div>
+            <h3 class="font-16 hidden">Samsung Galaxy S10</h3>
         </div>
         </article>
 
@@ -138,9 +147,12 @@
         <img src="images\img-tv-samsung-smart.jpg" alt="imagen smart TV Samsung">
         
         <div class="bt-1-s border-grey pd-15">
-        <p class="font-18">$23.200</p>
-        <p class="font-16 c-green">5% off</p>
-        <h3 class="font-16">SmartTv Samsung 43"</h3>
+            <p class="desc-box truck-icon"><i class="fa-solid fa-truck c-green"></i></p>
+            <div class="div-container">
+                <p class="font-18 w-30">$23.200</p>
+                <p class="font-16 c-green w-70">5% off</p>
+            </div>
+            <h3 class="font-16 hidden">SmartTv Samsung 43"</h3>
         </div>
         </article>
 
