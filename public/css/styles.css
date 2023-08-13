@@ -202,7 +202,7 @@ body {
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
-    left: 200px;
+    right: 20px;
     top: -15px;
  }
 
@@ -227,6 +227,20 @@ div h4 {
     align-items: center;
     text-align: center;
 }
+
+.banner {
+    padding-top: 5px;
+    width: 100vw;
+}
+
+footer h4 {
+    margin: auto;
+}
+
+/*header {
+    position: sticky;
+    top: 20px;
+}*/
 
  
 
@@ -304,7 +318,8 @@ div h4 {
         margin: auto;
 
      }
-    
+
+         
     }
 
 @media (min-width: 1280px) {
