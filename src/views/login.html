@@ -12,7 +12,9 @@
 
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>Registrate</title>
+    <title>Ingresá a tu cuenta
+        
+    </title>
 </head>
 
 <body class="bg-ligth-grey font-12">
@@ -57,91 +59,20 @@
 
     <div class="form-register">
         <form action="/registro" method="post">
-            <div class="control-formulario">
-                <label for="name"></label>
-                <input type="text" name="name" id="name" placeholder="Nombre y apellido" class="form-input" required>
+            
+            <div class="control-formulario wd-80">
+                <label for="user-name"></label>
+                <input type="text" name="user-name" id="user-name" placeholder="Nombre de usuario" class="form-input">
+            </div>
+                       
+            <div class="control-formulario wd-80">
+                <label for="password-reg"></label>
+                <input type="password-reg" name="password-reg" id="password-reg" placeholder="Ingresá tu contraseña" class="form-input">
             </div>
 
-            <div class="control-formulario">
-                <label for="user"></label>
-                <input type="text" name="user" id="user" placeholder="Usuario" class="form-input">
-            </div>
-
-            <div class="control-formulario">
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="E-mail" class="form-input">
-            </div>
-
-            <div class="control-formulario">
-                <label for="birthday"><h5>Fecha de Nacimiento:</h5></label>
-                <input type="date" name="birthday" id="birthday" class="form-input">
-            </div>
-
-            <div class="control-formulario">
-                <label for="adress"></label>
-                <input type="text" name="adress" id="adress" placeholder="Domicilio" class="form-input">
-            </div>
-
-            <fieldset>
-            <legend><h5>Perfil del usuario:</h5></legend>
-            <div class="perfil-user">
-            <div class="wd-40">    
-                <input type="radio" name="perfil" value="comprador" id="comprador"  class="radio">
-                <label for="comprador">Comprador</label>
-            </div>
-            <div class="wd-40">
-                <input type="radio" name="perfil" value="vendedor" id="vendedor"class="radio">
-                <label for="vendedor">Vendedor</label>
-            </div>
-            </div>
-            </fieldset>
-                      
-            <fieldset class="form-select">
-                <legend><h5>Intereses</h5></legend>
-                <div class="select">
-                    <input type="checkbox" name="categoria" value="electro" id="electro">
-                    <label for="electro">Electro</label>
-                </div>
-
-                <div class="select">
-                    <input type="checkbox" name="categoria" value="moda" id="moda">
-                    <label for="moda">Moda</label>
-                </div>
-
-                <div class="select">
-                <input type="checkbox" name="categoria" value="hogar" id="hogar">
-                <label for="hogar">Hogar</label>
-                </div>
-
-                <div class="select">
-                <input type="checkbox" name="categoria" value="jugueteria" id="jugueteria">
-                <label for="jugueteria">Jugueteria</label>
-                </div>
-
-                <div>
-                <input type="checkbox" name="categoria" value="vida-sana" id="vida-sana">
-                <label for="vida-sana">Vida sana</label>
-                </div>
-            </fieldset>
-
-                <div class="control-formulario">
-                    <label for="user-photo"><h5>Subí tu foto</h5></label>
-                    <input type="file" name="user-photo" id="user-photo">
-                </div>
-
-                <div class="control-formulario">
-                    <label for="password"></label>
-                    <input type="password" name="password" id="password" placeholder="Ingresá tu contraseña" class="form-input">
-                </div>
-
-                <div class="control-formulario">
-                    <label for="password-repeat"></label>
-                    <input type="password" name="password-repeat" id="password-repeat" placeholder="Reingresa tu contraseña" class="form-input">
-                </div>
-
+                
            <div class="form-bottom">
-                <button type="submit" class="boton-formulario">Enviar</button>
-                <button type="reset" class="boton-formulario">Borrar</button>
+                <button type="submit" class="boton-formulario wd-80">Enviar</button>
            </div>
 
         </form>
