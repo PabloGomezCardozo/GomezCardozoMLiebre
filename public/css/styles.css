@@ -10,17 +10,17 @@ body {
     background-color: #ebebeb;
 }
 
-.bg-blue {
+/*.bg-blue {
     background-color:#03264C
-}
+}*/
 
-.bg-white{
+.bg-white {
     background-color: #ffffff;
 }
 
-.c-dark-grey {
+/*.c-dark-grey {
     color: #666;
-}
+}*/
 
 .c-sky-blue {
     color: #1259c3;
@@ -115,9 +115,9 @@ body {
     text-align: center;
 }
 
-.mt-5 {
+/*.mt-5 {
     margin-top: 3px;
-}
+}*/
 
 .mt-10 {
     margin-top: 10px;
@@ -127,9 +127,9 @@ body {
     margin-bottom: 10px;
 }
 
-.ml-4 {
+/*.ml-4 {
     margin-left: 4px;
-}
+}*/
 
 .vw-90 {
     width: 90vw;
@@ -155,20 +155,20 @@ body {
     border-top: 1px solid;
 }
 
-.br-10 {
+/*.br-10 {
     border-radius: 10px;
-}
+}*/
 
 .border-grey {
     border-color: #ebebeb;
 }
 
-.circle {
+/*.circle {
     border-radius: 50%;
     width: 30px;
     height: 30px;
     border: #39b54a solid 1px;
- }
+ }*/
 
  .hidden {
     display: none   ;
@@ -223,9 +223,9 @@ body {
     align-items: center;
 }
 
-div h1 p {
+/*div h1 p {
     width: 40%;
-}
+}*/
 
 div h4 {
     width: 100%;    
@@ -319,18 +319,18 @@ div h5 {
 width:80%;
 }
 
-.mg-20 {
+/*.mg-20 {
     margin: 0 20px;
-}
+}*/
 
 /* - - - - */
 
 /* estilos de videos PG Javi Herrera */
 
- .create-form {
+ /*.create-form {
     padding: 20px 15px;
     margin-top: 160px;
- }
+ }*/
 
  .control-formulario {
     margin-bottom: 15px;
@@ -342,10 +342,10 @@ width:80%;
     display: block;
  }
 
-.control {
+/*.control {
     width: 100%;
     padding: 8px;
-}
+}*/
 
 .boton-formulario {
     background-color: #1259c3;
@@ -361,29 +361,29 @@ width:80%;
 }
 /* ----- */
 
-.main-header {
+/*.main-header {
     position: fixed;
     top:0;
     z-index: 100;
-}
+}*/
 
-.product {
+/*.product {
     padding: 0 15px;
     position: relative;
     margin: 30px 15px;
-}
+}*/
 
-.product img {
+/*.product img {
     width: 100%;
-}
+}*/
 
-.product:hover h2 {
+/*.product:hover h2 {
     opacity: 1;
     background-color: rgba(255,0,0,0.5);
     border-radius: 50%;
-}
+}*/
 
-.product h2 {
+/*.product h2 {
     background-color: rgba(0,0,0,0.7);
     color: #ffffff;
     margin: 0;
@@ -398,7 +398,7 @@ width:80%;
     align-items: center;
     opacity: 0;
     transition: all 450ms;
-}
+}*/
 
 @keyframes aumentar {
     0% {
@@ -406,7 +406,7 @@ width:80%;
     }
 
     100% {
-        transform: scale(1.3);
+        transform: scale(1.15);
     }
 }
 
@@ -446,9 +446,9 @@ width:80%;
             align-items: center;
     }
     
-    div h1 {
+    /*div h1 {
         max-width: 35%;
-    }
+    }*/
     
     div h4 {
         width: 30%;
@@ -501,9 +501,9 @@ width:80%;
 
      }
 
-     div h1 {
+     /*div h1 {
         max-width: 30%;
-    }
+    }*/
 
     footer {
         display: flex;
