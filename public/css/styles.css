@@ -315,7 +315,7 @@ input:invalid:hover {
     }
 
     100% {
-        transform: scale(1.15);
+        transform: scale(1.10);
     }
 }
 
@@ -350,7 +350,7 @@ input:invalid:hover {
             align-items: center;
     }
     
-    div h4 {
+    header div h4 {
         width: 30%;
     }
 
@@ -391,7 +391,10 @@ input:invalid:hover {
     .wd-m-30 {
         width: 30%;
     }
-          
+
+    .pd-15-6 {
+        padding: 15px 6px;
+    }      
     }
 
 @media (min-width: 1280px) {
@@ -420,6 +423,10 @@ input:invalid:hover {
 
     .wd-lg-15 {
         width: 15%;
+    }
+
+    .pd-20 {
+        padding: 20px;
     }
     
 }
