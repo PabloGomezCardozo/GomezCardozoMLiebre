@@ -263,6 +263,14 @@ div h5 {
 width:80%;
 }
 
+.mg-lr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 i {
+    margin-top: 10px;
+}
 /* - - - - */
 
 /* estilos de videos PG Javi Herrera */
@@ -286,9 +294,19 @@ width:80%;
     border-radius: 5px;
 }
 
+.boton-center {
+    display: flex;
+    justify-content: center;
+}
+
 .boton-formulario:hover {
     background-color: #0022AA;
 }
+
+input:invalid:hover {
+    border: 2px solid red;
+  }
+
 /* ----- */
 
 @keyframes aumentar {
@@ -341,7 +359,6 @@ width:80%;
         justify-content: space-between;
         align-items: center;
         flex-direction:row;
-
     }
 
     .main-navbar ul {
@@ -365,8 +382,16 @@ width:80%;
     section img {
         width: 40vw;
         margin: auto;
-     }
-         
+    }
+
+    .pdl-25 {
+        padding-left: 25px;
+    }
+
+    .wd-m-30 {
+        width: 30%;
+    }
+          
     }
 
 @media (min-width: 1280px) {
@@ -379,7 +404,6 @@ width:80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-       
     }
 
     .foot-div {
@@ -392,6 +416,10 @@ width:80%;
 
     .foot-icon:hover {
         color: #0022AA;
+    }
+
+    .wd-lg-15 {
+        width: 15%;
     }
     
 }

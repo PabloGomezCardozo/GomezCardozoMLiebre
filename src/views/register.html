@@ -38,8 +38,8 @@
             </ul>
             
             <ul>
-                    <li><a href="#">Creá tu cuenta</a> <i class="fa-solid fa-id-card"></i></li>
-                    <li><a href="#">Ingresá</a> <i class="fa-solid fa-right-to-bracket"></i></li>
+                    <li><a href="/register">Creá tu cuenta</a> <i class="fa-solid fa-id-card"></i></li>
+                    <li><a href="/login">Ingresá</a> <i class="fa-solid fa-right-to-bracket"></i></li>
                     <li><a href="#">Mis compras</a> <i class="fa-solid fa-basket-shopping"></i></li>
                 
             </ul>
@@ -51,41 +51,41 @@
     </header>
 
     <div class="form-register">
-        <form action="/registro" method="post">
+        <form action="/" method="get">
             <div class="control-formulario">
                 <label for="name"></label>
-                <input type="text" name="name" id="name" placeholder="Nombre y apellido" class="form-input" required>
+                <input type="text" name="name" id="name" placeholder="Nombre y apellido" required minlength="3" class="form-input">
             </div>
 
             <div class="control-formulario">
                 <label for="user"></label>
-                <input type="text" name="user" id="user" placeholder="Usuario" class="form-input">
+                <input type="text" name="user" id="user" placeholder="Usuario" required minlength="3" class="form-input">
             </div>
 
             <div class="control-formulario">
                 <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="E-mail" class="form-input">
+                <input type="email" name="email" id="email" placeholder="E-mail" class="form-input" required>
             </div>
 
             <div class="control-formulario">
                 <label for="birthday"><h5>Fecha de Nacimiento:</h5></label>
-                <input type="date" name="birthday" id="birthday" class="form-input">
+                <input type="date" name="birthday" id="birthday" class="form-input" required>
             </div>
 
             <div class="control-formulario">
                 <label for="adress"></label>
-                <input type="text" name="adress" id="adress" placeholder="Domicilio" class="form-input">
+                <input type="text" name="adress" id="adress" placeholder="Domicilio" class="form-input" required>
             </div>
 
             <fieldset>
                 <legend><h5>Perfil del usuario:</h5></legend>
                 <div class="perfil-user">
-                    <div class="wd-40">    
-                        <input type="radio" name="perfil" value="comprador" id="comprador"  class="radio">
+                    <div class="wd-40 wd-m-30 wd-lg-15">    
+                        <input type="radio" name="perfil" value="comprador" id="comprador"  class="radio" required>
                         <label for="comprador">Comprador</label>
                     </div>
-                    <div class="wd-40">
-                        <input type="radio" name="perfil" value="vendedor" id="vendedor"class="radio">
+                    <div class="wd-40 wd-m-30 wd-lg-15">
+                        <input type="radio" name="perfil" value="vendedor" id="vendedor"class="radio" required>
                         <label for="vendedor">Vendedor</label>
                     </div>
                 </div>
@@ -126,12 +126,12 @@
 
                 <div class="control-formulario">
                     <label for="password"></label>
-                    <input type="password" name="password" id="password" placeholder="Ingresá tu contraseña" class="form-input">
+                    <input type="password" name="password" id="password" placeholder="Ingresá tu contraseña" class="form-input" required>
                 </div>
 
                 <div class="control-formulario">
                     <label for="password-repeat"></label>
-                    <input type="password" name="password-repeat" id="password-repeat" placeholder="Reingresa tu contraseña" class="form-input">
+                    <input type="password" name="password-repeat" id="password-repeat" placeholder="Reingresa tu contraseña" class="form-input" required>
                 </div>
 
            <div class="form-bottom">
