@@ -61,7 +61,7 @@ body {
 }
 
 .logo {
-    width: 33%;
+    width: 42%;
     animation: aumentar 1s linear infinite alternate;
     z-index: 10;
 }
@@ -393,7 +393,11 @@ input:invalid:hover {
 
     .pd-15-6 {
         padding: 15px 6px;
-    }      
+    }
+    
+    .logo {
+        width: 33%;
+    }
     }
 
 @media (min-width: 1280px) {
@@ -427,5 +431,18 @@ input:invalid:hover {
     .pd-20 {
         padding: 20px;
     }
+
+    .main-navbar ul li{
+        font-size: 18px;
+        margin: 0 15px;
+    }
     
+    .main-navbar ul li a{
+        font-size: 18px;
+    }
+
+    .font-lg-18 {
+        font-size: 18px;
+    }
+     
 }
