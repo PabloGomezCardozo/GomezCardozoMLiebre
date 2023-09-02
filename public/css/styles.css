@@ -318,7 +318,7 @@ input:invalid:hover {
     }
 }
 
-
+/* tablet */
 @media (min-width:520px) {
     .md-product-shadow:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);        
@@ -400,7 +400,8 @@ input:invalid:hover {
     }
     }
 
-@media (min-width: 1280px) {
+    /* desktop */
+@media (min-width: 992px) {
     section img {
         width: 20vw;
         margin: auto;
@@ -443,6 +444,11 @@ input:invalid:hover {
 
     .font-lg-18 {
         font-size: 18px;
+    }
+
+    .bar-search {
+        flex-wrap: wrap;
+        flex-grow: 0.8;
     }
      
 }
